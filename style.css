@@ -168,3 +168,7 @@ article {
     inset -5px -15px 4px rgba(103, 53, 78, 0.08);
   border-radius: 2rem;
 }
+
+.logo {
+  text-align: center;
+}
