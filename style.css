@@ -169,6 +169,105 @@ article {
   border-radius: 2rem;
 }
 
+footer {
+  display: block;
+}
+
 .logo {
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+  header {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav .menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  ul.grid li a {
+    font-size: 1rem;
+  }
+
+  #call {
+    margin: 2rem;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+  }
+
+  section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home img {
+    width: 100%;
+    height: auto;
+  }
+
+  #about {
+    padding: 1rem;
+  }
+
+  .section-chatbot-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #chatbot {
+    padding: 2rem;
+    align-items: center;
+  }
+
+  #chatbot img {
+    width: 100%;
+    height: auto;
+  }
+
+  .acess-chat-bot {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  #equipe {
+    padding: 2rem;
+  }
+
+  .participantes-container {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .participantes-container img {
+    width: 80%;
+    height: auto;
+  }
+
+  .photo-participante {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  footer img {
+    width: 50%;
+    height: auto;
+  }
 }
